@@ -22,21 +22,20 @@ pip install requests colorama termcolor
 ```
 Usage
 
-    Clone the repository:
+Clone the repository:
 ```
 git clone
 cd
 ```
-    Run the script:
+Run the script:
 ```
 python kucoin_price_tracker.py
 ```
-    Enter the trading pair:
+Enter the trading pair:
 
 When prompted, enter the trading pair you want to track (e.g., BTC-USDT).
-```
-    View real-time price updates:
-```
+View real-time price updates:
+
 The script will continuously fetch and display the price information every 2 seconds. Press Ctrl+C to stop the tracker.
 Project Structure
 ```
@@ -49,18 +48,17 @@ kucoin-price-tracker/
 ```
 Installation
 
-    Create a virtual environment (optional but recommended):
+Create a virtual environment (optional but recommended):
 ```python
 python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
 ```
-    Install dependencies:
+Install dependencies:
 ```
 pip install -r requirements.txt
 ```
 
 Author
-
     s3nh - Initial work - GitHub Profile
 
 Created: 2025-01-03 21:16:29 UTC
